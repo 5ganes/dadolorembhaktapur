@@ -12,10 +12,10 @@
             <div class="row">
                 <small class="copyright col-md-6 col-sm-12 col-xs-12">
                     <?php if($lan=='en'){?>
-                        Copyright @ <?php echo date('Y'); ?>   Department of Environment | Developed By: <a href="http://www.krishighar.com/" style="color:#fff">Team Krishighar</a>
+                        Copyright @ <?php echo date('Y'); ?>   District Agriculture Development Office, Bhaktapur | Developed By: <a href="http://www.krishighar.com/" style="color:#fff">Team Krishighar</a>
                     <?php }
                     else{?>
-                        सर्वाधिकार @ <?php echo date('Y'); ?>   वातावरण विभाग | निर्माण तथा परिमार्जन: <a href="http://www.krishighar.com/" style="color:#fff">कृषिघर परिवार</a>
+                        सर्वाधिकार @ <?php echo date('Y'); ?>   जिल्ला कृषि बिकास कार्यालय, भक्तपुर | निर्माण तथा परिमार्जन: <a href="http://www.krishighar.com/" style="color:#fff">कृषिघर परिवार</a>
                     <?php }?>
                 </small>
                 <ul class="social pull-right col-md-6 col-sm-12 col-xs-12">
