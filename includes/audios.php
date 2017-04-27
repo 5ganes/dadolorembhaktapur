@@ -4,8 +4,8 @@
         <div class="panel-heading"><h3><?php if($lan=='en') echo 'Our Audio Programs'; else echo 'हाम्रा अडियोहरु';?></h3></div>
         <div class="panel-body dynamic">
             <?php
-                $content=$groups->getById(AUDIO);
-                $contentGet=$conn->fetchArray($content);
+                $contentGet=$groups->getByURLName(AUDIO);
+                // $contentGet=$conn->fetchArray($content);
                 if($lan!='en')
                    echo $contentGet['contents'];
                 else echo $contentGet['contentsen'];
@@ -24,7 +24,7 @@
                     </thead>
                     <tbody>
                         <?php
-                        $down=$groups->getByParentId(AUDIO); $count=1;
+                        $down=$groups->getByParentId($contentGet['id']); $count=1;
                         while($downRow=$conn->fetchArray($down)){?>
                             <tr>
                                 <td><?php echo $count++;?></td>

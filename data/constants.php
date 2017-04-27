@@ -45,7 +45,7 @@ define('PRESS_RELEASE', 561);
 define('BULLETIN', 580);
 define('HOT_NEWS', 581);
 define('SINGLE_VIDEO', 582);
-define('AUDIO', 585);
+define('AUDIO', 'our-audios');
 define('VIDEO', 601);
 define('ABOUT', 338);
 
